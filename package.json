@@ -1,0 +1,16 @@
+{
+  "name": "h5-greeting-card",
+  "version": "1.0.0",
+  "description": "H5节日贺卡",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "h5",
+    "greeting",
+    "card"
+  ],
+  "author": "ambit_tsai@qq.com",
+  "license": "MIT"
+}
