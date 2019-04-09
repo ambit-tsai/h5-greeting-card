@@ -214,7 +214,7 @@ body {
     -webkit-animation: p2_circle_outer 1s linear 3s infinite;
             animation: p2_circle_outer 1s linear 3s infinite;
 }
-@keyframes p2_circle_outer {
+@-webkit-keyframes p2_circle_outer {
     0% {
         -webkit-transform: rotate(0deg);
     }
