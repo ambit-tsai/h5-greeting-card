@@ -3,8 +3,8 @@
 
 
 #### 在线演示
-1. <a href="http://ambit.gitee.io/h5-greeting-card/" target="_blank">http://ambit.gitee.io/h5-greeting-card/</a>
-2. <a href="https://ambit-tsai.github.io/h5-greeting-card/" target="_blank">https://ambit-tsai.github.io/h5-greeting-card/</a>
+1. <a href="http://ambit.gitee.io/h5-greeting-card/" target="_blank">码云</a>
+2. <a href="https://ambit-tsai.github.io/h5-greeting-card/" target="_blank">GitHub</a>
 
 
 #### 参考
