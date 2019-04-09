@@ -8,4 +8,4 @@
 
 
 #### 参考
-1. [HTML5+CSS3实现春节贺卡 - 爱米](https://www.imooc.com/learn/597)
+1. <a href="https://www.imooc.com/learn/597/" target="_blank">HTML5+CSS3实现春节贺卡 - 爱米</a>

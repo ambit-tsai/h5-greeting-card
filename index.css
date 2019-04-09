@@ -7,11 +7,19 @@ html,
 body {
     height: 100%;
     margin: 0;
+}
+.main-wrapper {
+    position: relative;
+    max-width: 66.6vh;
+    height: 100%;
+    margin: auto;
     overflow: hidden;
 }
 
 
-/* Flexbox 兼容处理 */
+/* 
+ * Flexbox 兼容处理 
+ */
 .flex {
     display: -moz-box;
     display: -webkit-box;
@@ -48,9 +56,11 @@ body {
 }
 
 
-/* 播放器 */
+/**
+ * 播放器
+ */
 #player {
-    position: fixed;
+    position: absolute;
     z-index: 9;
     top: 1vh;
     right: 1vh;
@@ -85,7 +95,7 @@ body {
         transform: rotate(360deg);
     }
 }
-.player_pointer {
+#player > .player_pointer {
     position: absolute;
     right: 0;
     width: 28%;
@@ -95,17 +105,21 @@ body {
 }
 
 
+/* 三页通用样式 */
 .page {
     height: 100%;
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.hide {
+.page.hide {
     display: none;
 }
 
-/* 第一页 */
+
+/**
+ * 第一页 
+ */
 #p1 {
     background-image: url(./static/p1_bg.jpg);
 }
@@ -165,7 +179,9 @@ body {
 }
 
 
-/* 第二页 */
+/*
+ * 第二页 
+ */
 #p2 {
     background-image: url(./static/p2_bg.jpg);
     -webkit-transition: 0.5s;
@@ -269,7 +285,9 @@ body {
 }
 
 
-/* 第三页 */
+/*
+ * 第三页 
+ */
 #p3 {
     background-image: url(./static/p3_bg.jpg);
     -webkit-transition: 0.5s;

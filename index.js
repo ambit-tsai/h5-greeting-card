@@ -1,11 +1,7 @@
 (function () {
 
     var player = document.getElementById('player');
-    var player_disc = document.getElementById('player_disc');
-    var music = document.getElementById('music');
     var p1 = document.getElementById('p1');
-    var p2 = document.getElementById('p2');
-    var p3 = document.getElementById('p3');
 
     // 判断是移动端还是桌面端
     if ('ontouchstart' in document.documentElement) {
@@ -19,6 +15,9 @@
 
 
     function touchPlayer() {
+        var music = document.getElementById('music');
+        var player_disc = document.getElementById('player_disc');
+        
         if (music.paused) {
             music.play();
             player_disc.classList.remove('paused');
@@ -30,6 +29,9 @@
 
 
     function touchPage1() {
+        var p2 = document.getElementById('p2');
+        var p3 = document.getElementById('p3');
+
         p1.classList.add('hide');
         p2.classList.remove('hide');
         p3.classList.remove('hide');
