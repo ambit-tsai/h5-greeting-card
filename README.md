@@ -7,5 +7,8 @@
 2. <a href="https://ambit-tsai.github.io/h5-greeting-card/" target="_blank">GitHub</a>
 
 
+#### 兼容性
+IE10+
+
 #### 参考
 1. <a href="https://www.imooc.com/learn/597/" target="_blank">HTML5+CSS3实现春节贺卡 - 爱米</a>
