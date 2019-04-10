@@ -24,7 +24,7 @@
         } else {
             music.pause();
             player_disc.classList.add('paused');
-        };
+        }
     }
 
 
