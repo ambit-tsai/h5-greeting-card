@@ -59,6 +59,7 @@ body {
     border: .15rem solid #ef1639;
     border-radius: 50%;
     background-color: white;
+    cursor: pointer;
 }
 #player_disc {
     width: 85%;
@@ -117,6 +118,7 @@ body {
  */
 #p1 {
     background-image: url(./static/p1_bg.jpg);
+    cursor: pointer;
 }
 .p1_lantern {
     box-sizing: border-box;
