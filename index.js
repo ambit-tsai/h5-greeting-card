@@ -39,6 +39,6 @@
         setTimeout(function () {
             p2.classList.add('fadeout');
             p3.classList.add('fadein');
-        }, 5500);
+        }, 4000);
     }
 }());
