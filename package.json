@@ -1,6 +1,6 @@
 {
   "name": "h5-greeting-card",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "H5节日贺卡",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,8 @@
   "keywords": [
     "h5",
     "greeting",
-    "card"
+    "card",
+    "贺卡"
   ],
   "author": "ambit_tsai@qq.com",
   "license": "MIT"
