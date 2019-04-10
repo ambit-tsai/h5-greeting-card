@@ -180,10 +180,10 @@ body {
  */
 #p2 {
     background-image: url(./static/p2_bg.jpg);
-    -webkit-transition: .5s;
-            transition: .5s;
     -webkit-animation: p2_loading 1s linear;
             animation: p2_loading 1s linear;
+    -webkit-transition: transform .5s;
+            transition: transform .5s;
 }
 @-webkit-keyframes p2_loading {
     0% {
@@ -283,9 +283,8 @@ body {
     color: white;
 }
 #p2.fadeout {
-    -webkit-transform: translate(0, -100%); 
+    -webkit-transform: translate(0, -100%);
             transform: translate(0, -100%);
-    opacity: .3; 
 }
 
 
@@ -294,8 +293,8 @@ body {
  */
 #p3 {
     background-image: url(./static/p3_bg.jpg);
-    -webkit-transition: .5s;
-            transition: .5s;
+    -webkit-transition: transform .5s;
+            transition: transform .5s;
 }
 .p3_couplet {
     margin-top: 23vh;
