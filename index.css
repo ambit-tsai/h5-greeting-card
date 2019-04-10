@@ -285,8 +285,8 @@ body {
     color: white;
 }
 #p2.fadeout {
-    -webkit-transform: translate(0, -100%);
-            transform: translate(0, -100%);
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
 }
 
 
@@ -337,6 +337,6 @@ body {
     }
 }
 #p3.fadein {
-    -webkit-transform: translate(0, -100%);
-            transform: translate(0, -100%);
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
 }
