@@ -1,8 +1,22 @@
 CACHE MANIFEST
-# v0.0.1 - 20190417,0915
+# v1.2.0 - 20190417,0942
+index.css
+index.js
+static/player_disc.png
+static/player_pointer.png
+static/happy-new-year.mp3
 static/p1_bg.jpg
 static/p1_lantern.png
 static/p1_cartoon.png
+static/p2_bg.jpg
+static/p2_circle_inner.png
+static/p2_circle_middle.png
+static/p2_circle_outer.png
+static/p3_bg.jpg
+static/p3_couplet_left.png
+static/p3_couplet_right.png
+static/p3_couplet_title.png
+static/p3_fu.png
 
 
 NETWORK:
